@@ -5,7 +5,7 @@
 
 ---
 
-![Image](http://learn.nextwork.org/ecstatic_beige_calm_tarapirohe/uploads/aws-ai-lex1_505be5b8)
+![Image](https://github.com/GilbertEmodi/Build-a-Chatbot-with-Amazon-Lex/blob/main/chatbot%20lex.png)
 
 ---
 
@@ -37,7 +37,7 @@ While creating my chatbot, I also created a role with basic permissions because 
 
 In terms of the intent classification confidence score, I kept the default value of "0.40". This means there should at least be a 40% match between the user's input and the intent I programmed, for my Banker bot to respond accordingly.
 
-![Image](http://learn.nextwork.org/ecstatic_beige_calm_tarapirohe/uploads/aws-ai-lex1_97dc2351)
+![Image](https://github.com/GilbertEmodi/Build-a-Chatbot-with-Amazon-Lex/blob/main/1-Chatbot%20Settings.JPG)
 
 ---
 
@@ -47,7 +47,7 @@ Intents are what the user is trying to achieve in their conversation with the ch
 
 I created my first intent "WelcomeIntent" to greet users at the start of the chatbot conversation when they say "Hello" or any variation of a greeting.
 
-![Image](http://learn.nextwork.org/ecstatic_beige_calm_tarapirohe/uploads/aws-ai-lex1_505be5b8)
+![Image](https://github.com/GilbertEmodi/Build-a-Chatbot-with-Amazon-Lex/blob/main/2-Test%20Chatbot.JPG)
 
 ---
 
@@ -57,7 +57,7 @@ I launched and tested my chatbot, which could respond successfully if I enter "H
 
 My chatbot returned the error message 'Intent FallbackIntent is fulfilled' when I entered "Good Morning" This error message occurred because that phrase was not programmed in to the "Sample Utterances" during set up of the chatbot.
 
-![Image](http://learn.nextwork.org/ecstatic_beige_calm_tarapirohe/uploads/aws-ai-lex1_505be5b8)
+![Image](https://github.com/GilbertEmodi/Build-a-Chatbot-with-Amazon-Lex/blob/main/3-FallBackIntent.JPG)
 
 ---
 
@@ -75,7 +75,7 @@ To configure FallbackIntent, I had to create my own closing response in the inte
 
 I also added variations! What this means for an end user is they get to see different forms of my chatbot's response. This is done to give a bit of uniqueness and more of a human feel.
 
-![Image](http://learn.nextwork.org/ecstatic_beige_calm_tarapirohe/uploads/aws-ai-lex1_c4fc89af)
+![Image](https://github.com/GilbertEmodi/Build-a-Chatbot-with-Amazon-Lex/blob/main/3-FallBackIntent.JPG)
 
 ---
 
@@ -86,7 +86,7 @@ I've set up initial responses for greetings
 
 The initial response messages I set up are "Hmmm this is interesting..." and "One moment..." For the user, this means they sent a message and the chatbot couldn't decipher the user's intent with at least 40% accuracy.
 
-![Image](http://learn.nextwork.org/ecstatic_beige_calm_tarapirohe/uploads/aws-ai-lex1_09bcb9701)
+![Image](https://github.com/GilbertEmodi/Build-a-Chatbot-with-Amazon-Lex/blob/main/4-InitialResponse.JPG)
 
 ---
 
